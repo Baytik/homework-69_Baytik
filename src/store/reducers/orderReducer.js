@@ -8,10 +8,7 @@ const orderReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_PRODUCT:
             return {...state,
-                orders: {
-                    ...state.orders,
-                    [action.productName]: state.orders[action.productName] + 1,
-                },
+                orders: action.productName,
             };
         default:
             return state;
