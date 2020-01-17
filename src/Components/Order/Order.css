@@ -1,0 +1,21 @@
+.Order {
+    margin-top: 20px;
+    width: 400px;
+    border: 2px solid black;
+    margin-right: 50px;
+}
+.main-card {
+    text-align: center;
+    font-size: 28px;
+}
+.text {
+    float: left;
+    margin-left: 40px;
+}
+span {
+    margin-left: 10px;
+}
+.price {
+    margin-right: 100px;
+    float: right;
+}
